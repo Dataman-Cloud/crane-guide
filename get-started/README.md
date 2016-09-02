@@ -7,6 +7,6 @@
 * [应用](./stack.md)
 * [镜像](./registry.md)
 * 设施
->> [主机](./node.md)
->> [网络](./network.md)
->> [仓库认证](./registry-auth.md)
+ * [主机](./node.md)
+ * [网络](./network.md)
+ * [仓库认证](./registry-auth.md)
