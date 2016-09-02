@@ -1,4 +1,4 @@
-# resources
+# 参考资料
 
 * [Swarm mode overview](https://docs.docker.com/engine/swarm/)
 * [Docker 1.12: Now With Built-In Orchestration!](https://blog.docker.com/2016/06/docker-1-12-built-in-orchestration/)
