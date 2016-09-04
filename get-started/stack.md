@@ -1,10 +1,10 @@
 # 应用
 
-    应用或者应用编排(Application Stack)是 Docker 1.12 引入的概念，目前还是 experimental 的功能，必须得安装 experimental 的包才可以尝试。除去编排(stack), Docker 1.12 还引入了服务(service)和任务(task) 的概念，Docker 借此重新阐述了应用与容器(container)之间的关系。
+应用或者应用编排(Application Stack)是 Docker 1.12 引入的概念，目前还是 experimental 的功能，必须得安装 experimental 的包才可以尝试。除去编排(stack), Docker 1.12 还引入了服务(service)和任务(task) 的概念，Docker 借此重新阐述了应用与容器(container)之间的关系。
 
-    一个应用编排代表一组有依赖关系的服务(譬如 wordpress 服务和 mysql 服务)，服务之间可以相互发现，每个服务由多个任务组成，任务的数量可以扩缩(scale)，而任务则物化为一个具体的 Docker 容器及其配置。
+一个应用编排代表一组有依赖关系的服务(譬如 wordpress 服务和 mysql 服务)，服务之间可以相互发现，每个服务由多个任务组成，任务的数量可以扩缩(scale)，而任务则物化为一个具体的 Docker 容器及其配置。
 
-    目前可以通过以下三种方式发布应用：
+目前可以通过以下三种方式发布应用：
 
 **DAB 创建**:
 我们可以通过一个 JSON 文件快速发布一个应用，JSON 文件的格式如下：
