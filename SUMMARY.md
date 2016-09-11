@@ -5,6 +5,7 @@
     * [Docker Swarm mode 简介](overview/Introduction-of-Docker-Swarm-Mode.md)
     * [Swarm mode 核心概念](overview/Swarm-Mode-Key-Concepts.md)
 * [使用说明](get-started/README.md)
+    * [搜索](get-started/search.md)
     * [应用](get-started/stack.md)
     * [镜像](get-started/registry.md)
     * [主机](get-started/node.md)
